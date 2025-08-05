@@ -1,0 +1,9 @@
+relationship 309ab459-46eb-457c-a22d-b72a598a7377
+	joinOnDateBehavior: datePartOnly
+	fromColumn: fact_ventas.transaction_date
+	toColumn: LocalDateTable_3c2c7dbe-f29b-4c17-8e0a-33482c6267f6.Date
+
+relationship AutoDetected_026d3619-8774-48a7-b948-b862ab5ddcab
+	fromColumn: fact_ventas.id_category
+	toColumn: dim_category.id_category
+

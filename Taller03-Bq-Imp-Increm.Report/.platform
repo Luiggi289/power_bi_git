@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "Taller03-Bq-Imp-Increm"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "d3390179-d517-4e3f-9932-845614bd95c8"
+  }
+}
