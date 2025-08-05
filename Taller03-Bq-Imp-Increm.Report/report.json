@@ -36,12 +36,30 @@
           "z": 0.00
         },
         {
-          "config": "{\"name\":\"619287977b89e3606b9d\",\"layouts\":[{\"id\":0,\"position\":{\"x\":39.79430141208395,\"y\":314.2377594264561,\"z\":1,\"width\":1147.1736545000754,\"height\":279.9323271746596,\"tabOrder\":1}},{\"id\":1,\"position\":{\"x\":0,\"y\":188,\"z\":1,\"width\":324,\"height\":180,\"tabOrder\":1}}],\"singleVisual\":{\"visualType\":\"lineChart\",\"projections\":{\"Category\":[{\"queryRef\":\"fact_ventas.transaction_date.Variación.Jerarquía de fechas.Mes\",\"active\":true},{\"queryRef\":\"fact_ventas.transaction_date.Variación.Jerarquía de fechas.Día\",\"active\":true}],\"Y\":[{\"queryRef\":\"Sum(fact_ventas.sale_price)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"f\",\"Entity\":\"fact_ventas\",\"Type\":0}],\"Select\":[{\"HierarchyLevel\":{\"Expression\":{\"Hierarchy\":{\"Expression\":{\"PropertyVariationSource\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Name\":\"Variación\",\"Property\":\"transaction_date\"}},\"Hierarchy\":\"Jerarquía de fechas\"}},\"Level\":\"Día\"},\"Name\":\"fact_ventas.transaction_date.Variación.Jerarquía de fechas.Día\",\"NativeReferenceName\":\"transaction_date Día\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"sale_price\"}},\"Function\":0},\"Name\":\"Sum(fact_ventas.sale_price)\",\"NativeReferenceName\":\"Suma de sale_price\"},{\"HierarchyLevel\":{\"Expression\":{\"Hierarchy\":{\"Expression\":{\"PropertyVariationSource\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Name\":\"Variación\",\"Property\":\"transaction_date\"}},\"Hierarchy\":\"Jerarquía de fechas\"}},\"Level\":\"Mes\"},\"Name\":\"fact_ventas.transaction_date.Variación.Jerarquía de fechas.Mes\",\"NativeReferenceName\":\"transaction_date Mes\"}]},\"drillFilterOtherVisuals\":true}}",
+          "config": "{\"name\":\"11f9bd25c6c125574793\",\"layouts\":[{\"id\":0,\"position\":{\"x\":798.011420893517,\"y\":314.2803599526192,\"z\":3,\"width\":256.34849636688296,\"height\":40.55230451001538,\"tabOrder\":3}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Grafico por estado\"}]}]}}]}}}",
           "filters": "[]",
-          "height": 279.93,
-          "width": 1147.17,
-          "x": 39.79,
-          "y": 314.24,
+          "height": 40.55,
+          "width": 256.35,
+          "x": 798.01,
+          "y": 314.28,
+          "z": 3.00
+        },
+        {
+          "config": "{\"name\":\"22e926aa887b6f8bc899\",\"layouts\":[{\"id\":0,\"position\":{\"x\":808.1494970210208,\"y\":378.00540989692905,\"z\":2,\"width\":417.10941781730105,\"height\":311.38376677333235,\"tabOrder\":2}}],\"singleVisual\":{\"visualType\":\"pieChart\",\"projections\":{\"Category\":[{\"queryRef\":\"fact_ventas.status\",\"active\":true}],\"Y\":[{\"queryRef\":\"Sum(fact_ventas.sale_price)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"f\",\"Entity\":\"fact_ventas\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"status\"},\"Name\":\"fact_ventas.status\",\"NativeReferenceName\":\"status\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"sale_price\"}},\"Function\":0},\"Name\":\"Sum(fact_ventas.sale_price)\",\"NativeReferenceName\":\"Suma de sale_price\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"sale_price\"}},\"Function\":0}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
+          "filters": "[]",
+          "height": 311.38,
+          "width": 417.11,
+          "x": 808.15,
+          "y": 378.01,
+          "z": 2.00
+        },
+        {
+          "config": "{\"name\":\"619287977b89e3606b9d\",\"layouts\":[{\"id\":0,\"position\":{\"x\":39.10400792037197,\"y\":314.2803599526192,\"z\":1,\"width\":700.9755493874087,\"height\":311.38376677333235,\"tabOrder\":1}},{\"id\":1,\"position\":{\"x\":0,\"y\":188,\"z\":1,\"width\":324,\"height\":180,\"tabOrder\":1}}],\"singleVisual\":{\"visualType\":\"lineChart\",\"projections\":{\"Category\":[{\"queryRef\":\"fact_ventas.transaction_date.Variación.Jerarquía de fechas.Mes\",\"active\":true},{\"queryRef\":\"fact_ventas.transaction_date.Variación.Jerarquía de fechas.Día\",\"active\":true}],\"Y\":[{\"queryRef\":\"Sum(fact_ventas.sale_price)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"f\",\"Entity\":\"fact_ventas\",\"Type\":0}],\"Select\":[{\"HierarchyLevel\":{\"Expression\":{\"Hierarchy\":{\"Expression\":{\"PropertyVariationSource\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Name\":\"Variación\",\"Property\":\"transaction_date\"}},\"Hierarchy\":\"Jerarquía de fechas\"}},\"Level\":\"Día\"},\"Name\":\"fact_ventas.transaction_date.Variación.Jerarquía de fechas.Día\",\"NativeReferenceName\":\"transaction_date Día\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"sale_price\"}},\"Function\":0},\"Name\":\"Sum(fact_ventas.sale_price)\",\"NativeReferenceName\":\"Suma de sale_price\"},{\"HierarchyLevel\":{\"Expression\":{\"Hierarchy\":{\"Expression\":{\"PropertyVariationSource\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Name\":\"Variación\",\"Property\":\"transaction_date\"}},\"Hierarchy\":\"Jerarquía de fechas\"}},\"Level\":\"Mes\"},\"Name\":\"fact_ventas.transaction_date.Variación.Jerarquía de fechas.Mes\",\"NativeReferenceName\":\"transaction_date Mes\"}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 311.38,
+          "width": 700.98,
+          "x": 39.10,
+          "y": 314.28,
           "z": 1.00
         }
       ],
